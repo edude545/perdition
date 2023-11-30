@@ -1,0 +1,69 @@
+Issue:
+Christian beliefs, particularly regarding the afterlife and the "saving of souls" through evangelism.
+
+Learning objectives (max. 3):
+1. The implications of the belief in "saving souls" through spreading the word of God.
+2. The bizarre Bronze Age morals that are described in the Bible.
+3.
+
+Research:
+David W. Bebbington's "quadrilateral" definition of evangelicalism: the importance of the Bible, the importance of Christ's atonement, the need for human beings to be converted, and the belief that the gospel must be expressed through activism.
+
+https://www.latimes.com/archives/la-xpm-1992-04-05-mn-929-story.html - LA times article about "stealth campaigning", where right-wing Christian political candidates avoid negative attention by only advertising to churchgoers and minimising contact with the rest of the electorate, not attending debates, and publicly downplaying their religious beliefs. The beliefs held by such Christians are extremely unpopular, and they are aware of this. Nevertheless, they are determined to impose their beliefs on others.
+
+https://www.pewresearch.org/religion/religious-landscape-study/views-about-abortion/ - Statistics on views on abortion, religious group, and belief in God. 63% Evangelical Protestants, 70% of Mormons, and 75% of Jehovah's Witnesses believe that abortion should be illegal in most cases, as opposed to 43% of the general population.
+
+https://www.jstor.org/stable/41858434 - 2003 essay on the similarities between Samson and Mohamed Atta. Discusses the implications of people "acting according to the will of God" and the biblical God's habit for collective punishment.
+
+Case studies:
+1.
+2.
+3.
+
+Audience:
+
+
+Game concept, including artwork and other documentation:
+
+The setting of the game presupposes that everything evangelical Christians believe in is objectively true. Heaven, Hell and Purgatory are real places that people are sent to after their deaths. The dead are judged according to evangelical morals. The geography and layout of the afterlife is based on Dante's "Divine Comedy".
+
+The game is a "walking simulator" set in the afterlife. The player character is a bureaucrat in the afterlife who is expected to visit several souls to ensure that their punishment is appropriate. For each soul, the player is presented with a summary of their life
+At the end of the game, the player visits an angel to express their concerns about the souls they have visited. For each soul, the player is presented with multiple options, where they can either state that the soul's judgement is appropriate, or express one of three concerns. After each step, the player's choice is either validated or corrected with Bible citations.
+
+The player will visit the following souls:
+
+Cuauhtemoc, a man who lived under the Aztec empire ca. 1500 AD, and was chosen as a sacrifice to the imperial god Huitzilopochtli. In hell for idolatry and worship of a foreign god.
+Located in the Solar Dungeon under the city of Dis, in the circle of Heresy. The Solar Dungeon is an enormous amphitheatre with a false sun suspended in the middle. It was constructed to house the worshippers of sun gods, and the false sun was placed there as a demonstration of God's power over false gods. Souls here are locked in metal coffins with holes at eye-level, and are forced to stare into the sun until the end of time.
+
+Luca Bonatti, a Italian man who lived around 2035 AD, and a Christian. Had a relatively easy life until about 70 years of age, when God afflicted him with a crippling disease to test his faith, and after several years chose euthanasia. In hell for suicide.
+Located in the Forest of Suicides, in the circle of Violence.
+
+Dominic Lindsay Ellis Jr., who lived around 2700 AD. The description the player receives about his life is intentionally vague. He was a politician/governor and a devout Christian who was responsible for the suppression of a non-Christian religion, and the forcible conversion of a significant population to Christianity. In Heaven for his evangelism.
+Located in the Palace of Righteous Kings, in the sphere of Mars.
+
+Samson, the judge of Israel described in Judges 13-16. In heaven with Dominic Lindsay Ellis Jr. in the Palace of Righteous Kings. The player is not initially told that Samson is a biblical character, and the narration of his life just describes the massacre he carried out at Gaza. If the player objects to him being in heaven, the biblical citation to correct them is Judges 13:24-25 - "The woman gave birth to a boy and named him Samson. He grew and the LORD blessed him, and the Spirit of the LORD began to stir him while he was in Mahanehdan, between Zorah and Eshtaol." The Bible is infallible, and states that Samson was directly blessed by God on multiple occasions, guaranteeing that he was objectively good.
+
+After the game has finished, the player is presented with a statistic showing the exact number of souls in each region of the afterlife, as of the year 10970 AD.
+
+Quiz segment stuff:
+
+Cuauhtemoc
+- "Cuauhtemoc has been judged according to scripture. All is well."
+	Correct option
+- "He never received the word of God, and could not have been expected to live according to His teachings."
+	The punishment of Cuauhtemoc is answered in the latter part of God's second commandment to Moses, as recorded in Exodus 20:5 - "Thou shalt not bow down thyself to them, nor serve them: for I the LORD thy God am a jealous God, visiting the iniquity of the fathers upon the children unto the third and fourth generation of them that hate me..."
+	Without exception, all of humanity sprang from the original humans of the garden of Eden, who worshipped the LORD. Again after God sent the flood to wash away the sins of man, all humans thenceforth were descended from Noah's sons, who worshipped the LORD (Genesis 10:32 - "These are the clans of Noah's sons, according to the lines of descent, within their nations. From these the nations spread out over the earth after the flood.") At some time in the course of human events Cuauhtemoc's ancestors forsook the LORD their Father, rendering all their children and their children's children worthy of punishment in the eyes of the LORD.
+
+Luca Bonatti
+- "Luca Bonatti has been judged according to scripture. All is well."
+
+Dominic Lindsay Ellis Jr.
+- "Dominic Lindsay Ellis Jr. has been judged according to scripture. All is well."
+- "Though his ends were just, his methods were unnecessarily violent."
+	The LORD has permitted the holy punishment and destruction of foreign nations who blaspheme against Him. Consider His promise to the Israelites who follow the guidance of Moses, as recorded in Exodus 23:22-24 - "If you listen carefully to what he says and do all that I say, I will be an enemy to your enemies and will oppose those who oppose you. My angel will go ahead of you and bring you into the land of the Amorites, Hittites, Perizzites, Canaanites, Hivites and Jebusites, and I will wipe them out. Do not bow down before their gods or worship them or follow their practices. You must demolish them and break their sacred stones to pieces."
+
+Exodus 21:22-25
+"If people are fighting and hit a pregnant woman and she gives birth prematurely but there is no serious injury, the offender must be fined whatever the woman’s husband demands and the court allows. But if there is serious injury, you are to take life for life, eye for eye, tooth for tooth, hand for hand, foot for foot, 25 burn for burn, wound for wound, bruise for bruise."
+
+Exodus 22:2-3
+"If a thief is caught breaking in at night and is struck a fatal blow, the defender is not guilty of bloodshed; but if it happens after sunrise, the defender is guilty of bloodshed."

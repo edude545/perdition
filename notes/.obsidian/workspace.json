@@ -4,67 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "4a375ee15fd9df76",
+        "id": "7ee41ff4477858fb",
         "type": "tabs",
         "children": [
           {
-            "id": "1d45fbbdc788c873",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "71376b64bd1e702c",
+            "id": "78aeef12b678807c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b713575d7e49f851",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Stages/Solar Dungeon.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f365f137ce20ad8c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Stages/Solar Dungeon.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9c265e2de6abdd41",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes.md",
+                "file": "Stages/Palace of Righteous Kings.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -130,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes.md",
+                "file": "Stages/Palace of Righteous Kings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes.md",
+                "file": "Stages/Palace of Righteous Kings.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes.md"
+                "file": "Stages/Palace of Righteous Kings.md"
               }
             }
           }
@@ -191,12 +146,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9c265e2de6abdd41",
+  "active": "78aeef12b678807c",
   "lastOpenFiles": [
-    "Stages/Solar Dungeon.md",
     "Stages/Palace of Righteous Kings.md",
+    "Stages/Solar Dungeon.md",
+    "Notes.md",
     "Stages/Isolation Chambers.md",
-    "Stages",
-    "Notes.md"
+    "Stages"
   ]
 }
