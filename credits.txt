@@ -1,0 +1,2 @@
+Blender "X Curve Array" geonodes, used to model the Solar Dungeon:
+https://blender.stackexchange.com/questions/245282/how-to-bend-geometry-with-geometry-nodes/245553#245553

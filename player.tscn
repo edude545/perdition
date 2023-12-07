@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=3 uid="uid://dqoycath88f7w"]
+
+[ext_resource type="Script" path="res://player.gd" id="1_uvlci"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_8snui"]
+
+[node name="Player" type="CharacterBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -45.7776, 3.1478, -54.7331)
+script = ExtResource("1_uvlci")
+move_speed = 10.0
+sprint_mult = 2.5
+look_sensitivity = 0.003
+
+[node name="Head" type="Node3D" parent="."]
+
+[node name="Camera" type="Camera3D" parent="Head"]
+current = true
+
+[node name="Hitbox" type="CollisionShape3D" parent="."]
+shape = SubResource("CapsuleShape3D_8snui")
