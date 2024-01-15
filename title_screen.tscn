@@ -85,7 +85,6 @@ script = ExtResource("1_ix170")
 oscillators = Array[ExtResource("2_wqebe")]([SubResource("Resource_tnu3v")])
 
 [node name="Title" type="Sprite2D" parent="."]
-visible = false
-position = Vector2(581, 324)
-scale = Vector2(1.82927, 2.4541)
+position = Vector2(571, 323)
+scale = Vector2(1.06022, 1.42236)
 texture = ExtResource("3_5yw24")
