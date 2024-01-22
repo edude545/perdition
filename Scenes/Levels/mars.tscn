@@ -1,11 +1,11 @@
 [gd_scene load_steps=7 format=3 uid="uid://cf0mp1fi66kq6"]
 
-[ext_resource type="PackedScene" uid="uid://dqoycath88f7w" path="res://Scenes/player.tscn" id="1_kfte7"]
-[ext_resource type="Texture2D" uid="uid://dsdtcuhjgig2g" path="res://Resources/Image/space.png" id="2_dg01w"]
-[ext_resource type="PackedScene" uid="uid://cg1m8ix1uwqb0" path="res://Scenes/mcmansion-inherited.tscn" id="3_wo3jc"]
+[ext_resource type="PackedScene" uid="uid://dqoycath88f7w" path="res://Scenes/player.tscn" id="1_3vdmk"]
+[ext_resource type="Texture2D" uid="uid://dsdtcuhjgig2g" path="res://Resources/Image/space.png" id="2_4m7me"]
+[ext_resource type="PackedScene" uid="uid://cg1m8ix1uwqb0" path="res://Scenes/mcmansion-inherited.tscn" id="3_46lna"]
 
 [sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_dyktb"]
-panorama = ExtResource("2_dg01w")
+panorama = ExtResource("2_4m7me")
 
 [sub_resource type="Sky" id="Sky_myspu"]
 sky_material = SubResource("PanoramaSkyMaterial_dyktb")
@@ -18,8 +18,8 @@ ambient_light_color = Color(1, 1, 1, 1)
 
 [node name="mcmansion" type="Node3D"]
 
-[node name="Player" parent="." instance=ExtResource("1_kfte7")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 82.3028, 5.67857, -77.3278)
+[node name="Player" parent="." instance=ExtResource("1_3vdmk")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 229.068, 2.59767, -13.7197)
 floor_stop_on_slope = false
 floor_max_angle = 1.68075
 move_speed = 1.0
@@ -29,7 +29,7 @@ gravity = 0.3
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource("Environment_hk3q2")
 
-[node name="mcmansion" parent="." instance=ExtResource("3_wo3jc")]
+[node name="mcmansion" parent="." instance=ExtResource("3_46lna")]
 transform = Transform3D(0.8, 0, 0, 0, 0.8, 0, 0, 0, 0.8, 0, 0, 0)
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
