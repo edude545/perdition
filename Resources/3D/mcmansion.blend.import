@@ -1,0 +1,425 @@
+[remap]
+
+importer="scene"
+importer_version=1
+type="PackedScene"
+uid="uid://biuwx0lio0grp"
+path="res://.godot/imported/mcmansion.blend-a1bd9475a04a30069e31d9755ae256f7.scn"
+
+[deps]
+
+source_file="res://Resources/3D/mcmansion.blend"
+dest_files=["res://.godot/imported/mcmansion.blend-a1bd9475a04a30069e31d9755ae256f7.scn"]
+
+[params]
+
+nodes/root_type="Node3D"
+nodes/root_name="Scene Root"
+nodes/apply_root_scale=true
+nodes/root_scale=1.0
+meshes/ensure_tangents=true
+meshes/generate_lods=true
+meshes/create_shadow_meshes=true
+meshes/light_baking=1
+meshes/lightmap_texel_size=0.2
+skins/use_named_skins=true
+animation/import=true
+animation/fps=30
+animation/trimming=false
+animation/remove_immutable_tracks=true
+import_script/path=""
+_subresources={
+"materials": {
+"mat1027": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat1027.tres"
+},
+"mat1210": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat1210.tres"
+},
+"mat1536": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat1536.tres"
+},
+"mat1563": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat1563.tres"
+},
+"mat161": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat161.tres"
+},
+"mat1703": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat1703.tres"
+},
+"mat171": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat171.tres"
+},
+"mat1738": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat1738.tres"
+},
+"mat175": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat175.tres"
+},
+"mat185": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat185.tres"
+},
+"mat1854": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat1854.tres"
+},
+"mat1871": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat1871.tres"
+},
+"mat193": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat193.tres"
+},
+"mat2515": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2515.tres"
+},
+"mat2515_0": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2515_0.tres"
+},
+"mat2515_1": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2515_1.tres"
+},
+"mat2515_10": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2515_10.tres"
+},
+"mat2515_11": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2515_11.tres"
+},
+"mat2515_12": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2515_12.tres"
+},
+"mat2515_13": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2515_13.tres"
+},
+"mat2515_14": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2515_14.tres"
+},
+"mat2515_15": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2515_15.tres"
+},
+"mat2515_16": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2515_16.tres"
+},
+"mat2515_17": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2515_17.tres"
+},
+"mat2515_18": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2515_18.tres"
+},
+"mat2515_19": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2515_19.tres"
+},
+"mat2515_2": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2515_2.tres"
+},
+"mat2515_20": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2515_20.tres"
+},
+"mat2515_21": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2515_21.tres"
+},
+"mat2515_22": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2515_22.tres"
+},
+"mat2515_23": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2515_23.tres"
+},
+"mat2515_24": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2515_24.tres"
+},
+"mat2515_25": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2515_25.tres"
+},
+"mat2515_26": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2515_26.tres"
+},
+"mat2515_27": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2515_27.tres"
+},
+"mat2515_28": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2515_28.tres"
+},
+"mat2515_29": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2515_29.tres"
+},
+"mat2515_3": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2515_3.tres"
+},
+"mat2515_30": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2515_30.tres"
+},
+"mat2515_31": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2515_31.tres"
+},
+"mat2515_32": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2515_32.tres"
+},
+"mat2515_33": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2515_33.tres"
+},
+"mat2515_34": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2515_34.tres"
+},
+"mat2515_35": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2515_35.tres"
+},
+"mat2515_36": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2515_36.tres"
+},
+"mat2515_37": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2515_37.tres"
+},
+"mat2515_38": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2515_38.tres"
+},
+"mat2515_39": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2515_39.tres"
+},
+"mat2515_4": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2515_4.tres"
+},
+"mat2515_40": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2515_40.tres"
+},
+"mat2515_41": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2515_41.tres"
+},
+"mat2515_42": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2515_42.tres"
+},
+"mat2515_43": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2515_43.tres"
+},
+"mat2515_44": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2515_44.tres"
+},
+"mat2515_45": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2515_45.tres"
+},
+"mat2515_46": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2515_46.tres"
+},
+"mat2515_47": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2515_47.tres"
+},
+"mat2515_48": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2515_48.tres"
+},
+"mat2515_49": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2515_49.tres"
+},
+"mat2515_5": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2515_5.tres"
+},
+"mat2515_50": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2515_50.tres"
+},
+"mat2515_51": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2515_51.tres"
+},
+"mat2515_52": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2515_52.tres"
+},
+"mat2515_53": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2515_53.tres"
+},
+"mat2515_54": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2515_54.tres"
+},
+"mat2515_55": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2515_55.tres"
+},
+"mat2515_56": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2515_56.tres"
+},
+"mat2515_57": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2515_57.tres"
+},
+"mat2515_58": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2515_58.tres"
+},
+"mat2515_59": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2515_59.tres"
+},
+"mat2515_6": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2515_6.tres"
+},
+"mat2515_60": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2515_60.tres"
+},
+"mat2515_61": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2515_61.tres"
+},
+"mat2515_7": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2515_7.tres"
+},
+"mat2515_8": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2515_8.tres"
+},
+"mat2515_9": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2515_9.tres"
+},
+"mat2570": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2570.tres"
+},
+"mat2950": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2950.tres"
+},
+"mat2971": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2971.tres"
+},
+"mat2983": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2983.tres"
+},
+"mat2984": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2984.tres"
+},
+"mat2986": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2986.tres"
+},
+"mat2987": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2987.tres"
+},
+"mat2988": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2988.tres"
+},
+"mat2990": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2990.tres"
+},
+"mat2991": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2991.tres"
+},
+"mat2992": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2992.tres"
+},
+"mat2999": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat2999.tres"
+},
+"mat322": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat322.tres"
+},
+"mat827": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat827.tres"
+},
+"mat84": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat84.tres"
+},
+"mat992": {
+"use_external/enabled": true,
+"use_external/path": "res://Resources/3D/mcmansion-materials/mat992.tres"
+}
+},
+"nodes": {
+"PATH:Object_3": {
+"generate/physics": true,
+"physics/shape_type": 2
+}
+}
+}
+gltf/embedded_image_handling=1
+blender/nodes/visible=0
+blender/nodes/punctual_lights=true
+blender/nodes/cameras=true
+blender/nodes/custom_properties=true
+blender/nodes/modifiers=1
+blender/meshes/colors=false
+blender/meshes/uvs=true
+blender/meshes/normals=true
+blender/meshes/tangents=true
+blender/meshes/skins=2
+blender/meshes/export_bones_deforming_mesh_only=false
+blender/materials/unpack_enabled=true
+blender/materials/export_materials=1
+blender/animation/limit_playback=true
+blender/animation/always_sample=true
+blender/animation/group_tracks=true

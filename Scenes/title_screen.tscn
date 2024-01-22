@@ -1,0 +1,90 @@
+[gd_scene load_steps=11 format=3 uid="uid://368fdbqgib6m"]
+
+[ext_resource type="Script" path="res://noisepulser.gd" id="1_ix170"]
+[ext_resource type="Script" path="res://oscillator.gd" id="2_wqebe"]
+[ext_resource type="Texture2D" uid="uid://301qtouk5pip" path="res://title.png" id="3_5yw24"]
+
+[sub_resource type="Gradient" id="Gradient_gpj5p"]
+offsets = PackedFloat32Array(0, 0.55291, 1)
+colors = PackedColorArray(0.494541, 0.188226, 0.12759, 1, 0.268801, 0.099751, 0.0496963, 1, 0, 0, 0, 1)
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_wjuwr"]
+noise_type = 0
+fractal_octaves = 6
+fractal_gain = 0.405
+domain_warp_enabled = true
+domain_warp_amplitude = 700.0
+domain_warp_frequency = 0.001
+domain_warp_fractal_octaves = 3
+domain_warp_fractal_lacunarity = 5.36
+domain_warp_fractal_gain = 0.455
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_pa6wm"]
+invert = true
+color_ramp = SubResource("Gradient_gpj5p")
+noise = SubResource("FastNoiseLite_wjuwr")
+
+[sub_resource type="Gradient" id="Gradient_2bbsm"]
+offsets = PackedFloat32Array(0, 0.5, 0.780423, 1)
+colors = PackedColorArray(0, 0, 0, 1, 0.36, 0.09, 0.099, 1, 0.528226, 0.249975, 0.154875, 1, 0.64, 0.356267, 0.192, 1)
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_s86ll"]
+frequency = 0.0322
+fractal_type = 2
+fractal_octaves = 3
+domain_warp_type = 2
+domain_warp_amplitude = 4.51
+domain_warp_frequency = 0.295
+domain_warp_fractal_octaves = 1
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_fk6pt"]
+width = 125
+height = 75
+invert = true
+in_3d_space = true
+generate_mipmaps = false
+color_ramp = SubResource("Gradient_2bbsm")
+noise = SubResource("FastNoiseLite_s86ll")
+
+[sub_resource type="Resource" id="Resource_tnu3v"]
+script = ExtResource("2_wqebe")
+start = 0.495
+end = 0.815
+mult = 0.495
+ease_type = 3
+varpath = Array[String](["texture", "noise", "fractal_gain"])
+
+[node name="TitleScreen" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = SubResource("NoiseTexture2D_pa6wm")
+
+[node name="TextureRect2" type="TextureRect" parent="."]
+texture_filter = 2
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = SubResource("NoiseTexture2D_fk6pt")
+script = ExtResource("1_ix170")
+oscillators = Array[ExtResource("2_wqebe")]([SubResource("Resource_tnu3v")])
+
+[node name="Title" type="Sprite2D" parent="."]
+position = Vector2(571, 323)
+scale = Vector2(1.06022, 1.42236)
+texture = ExtResource("3_5yw24")

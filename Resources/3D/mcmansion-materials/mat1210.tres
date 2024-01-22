@@ -1,0 +1,8 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://dr4d5mq7i0dks"]
+
+[resource]
+resource_name = "mat1210"
+cull_mode = 2
+vertex_color_use_as_albedo = true
+albedo_color = Color(0.95009, 0.912197, 0.84036, 1)
+roughness = 0.6

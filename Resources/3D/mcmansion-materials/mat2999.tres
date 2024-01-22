@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://dxn0wnynhcn46"]
+
+[resource]
+resource_name = "mat2999"
+transparency = 4
+cull_mode = 2
+vertex_color_use_as_albedo = true
+albedo_color = Color(0.95377, 0.95377, 0.95377, 0.99)
+roughness = 0.6

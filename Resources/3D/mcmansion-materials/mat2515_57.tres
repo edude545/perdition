@@ -1,0 +1,10 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://dmc81koq7tuww"]
+
+[ext_resource type="Texture2D" uid="uid://bbtmn0yj3bvl" path="res://Resources/3D/textures/mat2515_57_baseColor.jpeg" id="1_1my2n"]
+
+[resource]
+resource_name = "mat2515_57"
+cull_mode = 2
+vertex_color_use_as_albedo = true
+albedo_texture = ExtResource("1_1my2n")
+roughness = 0.6
