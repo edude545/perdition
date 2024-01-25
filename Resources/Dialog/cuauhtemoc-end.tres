@@ -1,10 +1,11 @@
-[gd_resource type="Resource" script_class="DialogBlock" load_steps=2 format=3 uid="uid://3u7vhsuutvt4"]
+[gd_resource type="Resource" script_class="DialogBlock" load_steps=3 format=3 uid="uid://3u7vhsuutvt4"]
 
+[ext_resource type="Resource" uid="uid://c5ygq0kny2bu0" path="res://Resources/Dialog/dlej-intro.tres" id="1_qsoyw"]
 [ext_resource type="Script" path="res://Scripts/dialog_block.gd" id="1_vfaim"]
 
 [resource]
 script = ExtResource("1_vfaim")
 messages = Array[String](["CUAUHTEMOC BELONGS IN HELL."])
 choices = Array[String]([])
-linked_blocks = Array[ExtResource("1_vfaim")]([])
+linked_blocks = Array[ExtResource("1_vfaim")]([ExtResource("1_qsoyw")])
 write_speed_mult = 1.0

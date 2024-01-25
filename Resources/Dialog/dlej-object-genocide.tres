@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="DialogBlock" load_steps=2 format=3 uid="uid://blheakbgbx28s"]
+
+[ext_resource type="Script" path="res://Scripts/dialog_block.gd" id="1_tdq8t"]
+
+[resource]
+script = ExtResource("1_tdq8t")
+messages = Array[String](["ONE IS REMINDED OF THE STORY OF THE JUDGE SAMSON,
+WHO THROUGH HIS INCREDIBLE STRENGTH, GLEEFULLY KILLED MANY THOUSANDS OF PHILISTINES, AND DESTROYED THEIR GOD'S TEMPLE IN GAZA.", "JUDGES 15:14-16
+As he approached Lehi, the Philistines came toward him shouting. The Spirit of the Lord came powerfully upon him. The ropes on his arms became like charred flax, and the bindings dropped from his hands. Finding a fresh jawbone of a donkey, he grabbed it and struck down a thousand men.", "Then Samson said,
+\"With a donkey’s jawbone
+    I have made donkeys of them.
+With a donkey’s jawbone
+    I have killed a thousand men.\"", "YET SAMSON'S STRENGTH WAS NOT HUMAN. HE COULD NOT HAVE PERFORMED HIS DEEDS WITHOUT THE STRENGTH OF GOD BEHIND HIM.
+DOMINIC LINDSAY ELLIS WIELDED A SIMILAR LEVEL OF STRENGTH AS A GOVERNOR.", "NO MAN CAN ACHIEVE THIS LEVEL OF POWER WITHOUT THE AUTHORITY OF GOD.
+THE LORD HAS MADE IT CLEAR THAT WORSHIP OF FALSE GODS IS SINFUL, AND THAT HIS WORD IS TO BE SPREAD TO THE ENDS OF THE EARTH.", "WHEN A POWERFUL MAN OF FAITH ACTS IN ACCORDANCE WITH THIS GOAL,
+
+WHO CAN JUDGE HIM EXCEPT FOR GOD HIMSELF?"])
+choices = Array[String]([])
+linked_blocks = Array[ExtResource("1_tdq8t")]([])
+write_speed_mult = 1.0

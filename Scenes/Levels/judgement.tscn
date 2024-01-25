@@ -1,13 +1,14 @@
-[gd_scene load_steps=5 format=3 uid="uid://cw6jekvf6g2co"]
+[gd_scene load_steps=6 format=3 uid="uid://cw6jekvf6g2co"]
 
 [ext_resource type="PackedScene" uid="uid://douf1ta6n6q7s" path="res://Scenes/angel.tscn" id="1_ko231"]
 [ext_resource type="PackedScene" uid="uid://mdw7df3qes2m" path="res://Scenes/angel_dialog.tscn" id="2_nu1et"]
-[ext_resource type="Resource" uid="uid://bty7pty3po0pg" path="res://Resources/Dialog/cuauhtemoc-intro.tres" id="3_org0h"]
+[ext_resource type="Resource" uid="uid://boe0ewdfioemy" path="res://Resources/Dialog/tour-cuah.tres" id="3_rhoqw"]
+[ext_resource type="Script" path="res://Scripts/game_controller.gd" id="4_biqwa"]
 
 [sub_resource type="Environment" id="Environment_ddnyx"]
 ambient_light_source = 2
-ambient_light_color = Color(0.392157, 0.345098, 0.184314, 1)
-ambient_light_energy = 4.07
+ambient_light_color = Color(0.72549, 0.419608, 0.243137, 1)
+ambient_light_energy = 2.56
 
 [node name="judgement" type="Node3D"]
 
@@ -32,7 +33,7 @@ spot_range = 17.02
 spot_angle = 15.42
 
 [node name="AngelDialog" parent="." instance=ExtResource("2_nu1et")]
-start_dialog_block = ExtResource("3_org0h")
+start_dialog_block = ExtResource("3_rhoqw")
 write_speed = 30.0
 newline_pause = 20.0
 long_pause = 8.0
@@ -41,3 +42,6 @@ short_pause = 4.0
 [node name="OmniLight3D" type="OmniLight3D" parent="."]
 light_color = Color(1, 0.623529, 0.219608, 1)
 omni_attenuation = 4.14107
+
+[node name="Node3D" type="Node3D" parent="."]
+script = ExtResource("4_biqwa")

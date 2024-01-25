@@ -16,6 +16,7 @@ var timer_threshold: float
 var msg: String
 var dialog_block: DialogBlock
 var block_index: int
+var shown_choices: bool
 
 var long_pause_characters = [".", "?", "!", ":"]
 var short_pause_characters = [",", ";"]
@@ -28,6 +29,7 @@ func _ready():
 	timer_threshold = 1.0
 	dialog_block = start_dialog_block
 	block_index = 0
+	shown_choices = false
 	start_message()
 	
 func _process(delta):
@@ -59,6 +61,7 @@ func on_finished_typing():
 	timer = 0.0
 			
 func display_choices():
+	shown_choices = true
 	for index in dialog_block.choices.size():
 		var btn = button.instantiate()
 		btn.get_node("Button").button_down.connect(func():return on_choice_clicked(index))
@@ -70,6 +73,7 @@ func on_choice_clicked(index: int):
 	start_message()
 	for btn in button_container.get_children():
 		btn.queue_free()
+	shown_choices = false
 
 func next():
 	print("Next")
@@ -86,7 +90,7 @@ func next():
 
 func _on_gui_input(ev):
 	if ev is InputEventMouseButton and ev.pressed:
-		print("Hello world")
+		if shown_choices: return
 		if typing:
 			skip_message()
 		else:

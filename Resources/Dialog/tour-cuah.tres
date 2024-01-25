@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="DialogBlock" load_steps=5 format=3 uid="uid://boe0ewdfioemy"]
+
+[ext_resource type="Script" path="res://Scripts/dialog_block.gd" id="1_iypeb"]
+[ext_resource type="Resource" uid="uid://bty7pty3po0pg" path="res://Resources/Dialog/cuauhtemoc-intro.tres" id="1_mip3q"]
+
+[sub_resource type="Resource" id="Resource_8o16m"]
+script = ExtResource("1_iypeb")
+messages = Array[String](["For his worship of a false idol, and for rejecting the gift of Life, he was condemned to damnation.", "Locked in a stone coffin, he and his brethren stare into the face of their god until the end of time."])
+choices = Array[String]([])
+linked_blocks = Array[ExtResource("1_iypeb")]([ExtResource("1_mip3q")])
+write_speed_mult = 1.0
+
+[sub_resource type="Resource" id="Resource_pf2sg"]
+script = ExtResource("1_iypeb")
+messages = Array[String](["This is Cuauhtemoc. He was born on Earth in the four thousand, six hundred and sixtieth year of Creation.", "His ancestors rejected the LORD their father, and worshipped a false god, and lived in sin.", "In his seventieth year his kin made of him a sacrifice."])
+choices = Array[String](["And his judgement?"])
+linked_blocks = Array[ExtResource("1_iypeb")]([SubResource("Resource_8o16m")])
+write_speed_mult = 1.0
+
+[resource]
+script = ExtResource("1_iypeb")
+messages = Array[String](["The soul is here."])
+choices = Array[String](["Who was he?"])
+linked_blocks = Array[ExtResource("1_iypeb")]([SubResource("Resource_pf2sg")])
+write_speed_mult = 1.0

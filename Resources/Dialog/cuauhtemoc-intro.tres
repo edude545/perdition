@@ -7,7 +7,7 @@
 [resource]
 script = ExtResource("1_l8lqu")
 messages = Array[String](["CUAUHTEMOC WILL NOW BE JUDGED
-ACCORDING TO THE WILL OF GOD"])
+ACCORDING TO THE LAW OF GOD"])
 choices = Array[String](["Ratify", "Object"])
 linked_blocks = Array[ExtResource("1_l8lqu")]([ExtResource("1_lxe6u"), ExtResource("2_m6g1w")])
 write_speed_mult = 1.0

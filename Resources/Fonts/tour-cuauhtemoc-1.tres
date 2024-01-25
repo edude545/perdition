@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="DialogBlock" load_steps=2 format=3 uid="uid://ba3bw6m2yb0fn"]
+
+[ext_resource type="Script" path="res://Scripts/dialog_block.gd" id="1_tksv2"]
+
+[resource]
+script = ExtResource("1_tksv2")
+messages = Array[String]([])
+choices = Array[String]([])
+linked_blocks = Array[ExtResource("1_tksv2")]([])
+write_speed_mult = 1.0

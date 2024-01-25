@@ -1,11 +1,12 @@
-[gd_resource type="Resource" script_class="DialogBlock" load_steps=2 format=3 uid="uid://up13tsrplftw"]
+[gd_resource type="Resource" script_class="DialogBlock" load_steps=3 format=3 uid="uid://up13tsrplftw"]
 
 [ext_resource type="Script" path="res://Scripts/dialog_block.gd" id="1_bp3o1"]
+[ext_resource type="Resource" uid="uid://blheakbgbx28s" path="res://Resources/Dialog/dlej-object-genocide.tres" id="1_qnet2"]
 
 [resource]
 script = ExtResource("1_bp3o1")
 messages = Array[String](["WHAT
 IS YOUR OBJECTION"])
-choices = Array[String](["\"He oversaw the erasure of a foreign culture - in other words, a genocide.\""])
-linked_blocks = Array[ExtResource("1_bp3o1")]([])
+choices = Array[String](["\"He oversaw the erasure of a foreign culture.\""])
+linked_blocks = Array[ExtResource("1_bp3o1")]([ExtResource("1_qnet2")])
 write_speed_mult = 1.0

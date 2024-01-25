@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="DialogBlock" load_steps=4 format=3 uid="uid://bj55nlirdnata"]
+
+[ext_resource type="Script" path="res://Scripts/dialog_block.gd" id="1_vec6u"]
+
+[sub_resource type="Resource" id="Resource_05u41"]
+script = ExtResource("1_vec6u")
+messages = Array[String](["He was a great governor who kept God close to his heart and brought prosperity to God's people.", "Under his rulership a foreign religion was eradicated,
+and a nation of sinners and idolaters were redeemed in the eyes of the Lord.", "He reached Heaven, and now resides in his palace in the sphere of Mars."])
+choices = Array[String]([])
+linked_blocks = Array[ExtResource("1_vec6u")]([])
+write_speed_mult = 1.0
+
+[sub_resource type="Resource" id="Resource_4qilj"]
+script = ExtResource("1_vec6u")
+messages = Array[String](["This is Dominic Lindsay Ellis Junior. He was born on Earth in the six thousand fifty sixth year of Creation.", "He witnessed Heaven's light through his father and resolved to spend the rest of his life evangelizing the holy Word."])
+choices = Array[String](["And his judgement?"])
+linked_blocks = Array[ExtResource("1_vec6u")]([SubResource("Resource_05u41")])
+write_speed_mult = 1.0
+
+[resource]
+script = ExtResource("1_vec6u")
+messages = Array[String](["The soul is here."])
+choices = Array[String](["Who was he?"])
+linked_blocks = Array[ExtResource("1_vec6u")]([SubResource("Resource_4qilj")])
+write_speed_mult = 1.0

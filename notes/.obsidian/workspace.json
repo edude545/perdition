@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Stages/Solar Dungeon.md",
+                "file": "Stages/Wood of Suicides.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "65568b5855a3c2a8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Writeup.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Stages/Solar Dungeon.md",
+                "file": "Writeup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Stages/Solar Dungeon.md",
+                "file": "Writeup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Stages/Solar Dungeon.md"
+                "file": "Writeup.md"
               }
             }
           }
@@ -159,16 +171,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e2c6348f73338a66",
+  "active": "65568b5855a3c2a8",
   "lastOpenFiles": [
-    "Stages/Judgement.md",
     "Stages/Isolation Chambers.md",
-    "Stages/Palace of Righteous Kings.md",
+    "Writeup.md",
     "Stages/Wood of Suicides.md",
+    "Stages/Solar Dungeon.md",
+    "Stages/Palace of Righteous Kings.md",
+    "Stages/Judgement.md",
     "Notes-old.md",
     "Notes.md",
     "Stages/Intro.md",
-    "Stages/Solar Dungeon.md",
     "Stages"
   ]
 }
