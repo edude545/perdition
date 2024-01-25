@@ -16,15 +16,32 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_wvtfi")
 
-[node name="Label" type="Label" parent="."]
+[node name="ButtonContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+alignment = 1
+
+[node name="Panel" type="Panel" parent="."]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 offset_left = 64.0
-offset_top = 431.0
+offset_top = 461.0
 offset_right = -64.0
-offset_bottom = 0.000366211
+offset_bottom = -16.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="Panel"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 text = "ROMANS 1:18-20
@@ -35,21 +52,4 @@ vertical_alignment = 1
 autowrap_mode = 2
 visible_characters_behavior = 1
 
-[node name="TextureRect" type="TextureRect" parent="Label"]
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-
-[node name="ButtonContainer" type="VBoxContainer" parent="."]
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-alignment = 1
-
-[connection signal="gui_input" from="Label/TextureRect" to="." method="_on_gui_input"]
+[connection signal="gui_input" from="Panel" to="." method="_on_gui_input"]

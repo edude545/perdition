@@ -1,7 +1,8 @@
-[gd_scene load_steps=4 format=3 uid="uid://cw6jekvf6g2co"]
+[gd_scene load_steps=5 format=3 uid="uid://cw6jekvf6g2co"]
 
 [ext_resource type="PackedScene" uid="uid://douf1ta6n6q7s" path="res://Scenes/angel.tscn" id="1_ko231"]
 [ext_resource type="PackedScene" uid="uid://mdw7df3qes2m" path="res://Scenes/angel_dialog.tscn" id="2_nu1et"]
+[ext_resource type="Resource" uid="uid://bty7pty3po0pg" path="res://Resources/Dialog/cuauhtemoc-intro.tres" id="3_org0h"]
 
 [sub_resource type="Environment" id="Environment_ddnyx"]
 ambient_light_source = 2
@@ -31,7 +32,9 @@ spot_range = 17.02
 spot_angle = 15.42
 
 [node name="AngelDialog" parent="." instance=ExtResource("2_nu1et")]
+start_dialog_block = ExtResource("3_org0h")
 write_speed = 30.0
+newline_pause = 20.0
 long_pause = 8.0
 short_pause = 4.0
 

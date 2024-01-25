@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="DialogBlock" load_steps=2 format=3 uid="uid://up13tsrplftw"]
+
+[ext_resource type="Script" path="res://Scripts/dialog_block.gd" id="1_bp3o1"]
+
+[resource]
+script = ExtResource("1_bp3o1")
+messages = Array[String](["WHAT
+IS YOUR OBJECTION"])
+choices = Array[String](["\"He oversaw the erasure of a foreign culture - in other words, a genocide.\""])
+linked_blocks = Array[ExtResource("1_bp3o1")]([])
+write_speed_mult = 1.0

@@ -1,10 +1,13 @@
-[gd_resource type="Resource" script_class="DialogBlock" load_steps=2 format=3 uid="uid://bty7pty3po0pg"]
+[gd_resource type="Resource" script_class="DialogBlock" load_steps=4 format=3 uid="uid://bty7pty3po0pg"]
 
 [ext_resource type="Script" path="res://Scripts/dialog_block.gd" id="1_l8lqu"]
+[ext_resource type="Resource" uid="uid://3u7vhsuutvt4" path="res://Resources/Dialog/cuauhtemoc-end.tres" id="1_lxe6u"]
+[ext_resource type="Resource" uid="uid://s3is37xmn8ga" path="res://Resources/Dialog/cuauhtemoc-object.tres" id="2_m6g1w"]
 
 [resource]
 script = ExtResource("1_l8lqu")
 messages = Array[String](["CUAUHTEMOC WILL NOW BE JUDGED
 ACCORDING TO THE WILL OF GOD"])
-choices = Array[String]([])
-linked_blocks = Array[ExtResource("1_l8lqu")]([])
+choices = Array[String](["Ratify", "Object"])
+linked_blocks = Array[ExtResource("1_l8lqu")]([ExtResource("1_lxe6u"), ExtResource("2_m6g1w")])
+write_speed_mult = 1.0

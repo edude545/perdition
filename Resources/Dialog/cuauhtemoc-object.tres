@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="DialogBlock" load_steps=3 format=3 uid="uid://s3is37xmn8ga"]
+
+[ext_resource type="Script" path="res://Scripts/dialog_block.gd" id="1_eqluk"]
+[ext_resource type="Resource" uid="uid://b2cjeh8o8bp02" path="res://Resources/Dialog/cuauhtemoc-object-unreached.tres" id="1_tqbtu"]
+
+[resource]
+script = ExtResource("1_eqluk")
+messages = Array[String](["WHAT
+IS YOUR OBJECTION"])
+choices = Array[String](["\"He could not possibly have heard the word of God, so he cannot be expected to live morally.\""])
+linked_blocks = Array[ExtResource("1_eqluk")]([ExtResource("1_tqbtu")])
+write_speed_mult = 1.0

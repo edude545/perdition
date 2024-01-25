@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="DialogBlock" load_steps=2 format=3 uid="uid://c5ygq0kny2bu0"]
+
+[ext_resource type="Script" path="res://Scripts/dialog_block.gd" id="1_kx7sx"]
+
+[resource]
+script = ExtResource("1_kx7sx")
+messages = Array[String](["LINDSAY ELLIS JUNIOR WILL NOW BE JUDGED
+ACCORDING TO THE LAW OF GOD"])
+choices = Array[String](["Ratify", "Object"])
+linked_blocks = Array[ExtResource("1_kx7sx")]([null, null])
+write_speed_mult = 1.0
