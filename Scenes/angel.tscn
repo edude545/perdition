@@ -1,0 +1,7 @@
+[gd_scene load_steps=3 format=3 uid="uid://douf1ta6n6q7s"]
+
+[ext_resource type="PackedScene" uid="uid://bj5v0vlx1uscl" path="res://Resources/3D/angel.blend" id="1_1a3n8"]
+[ext_resource type="Script" path="res://Scenes/angel.gd" id="2_gji5p"]
+
+[node name="angel" instance=ExtResource("1_1a3n8")]
+script = ExtResource("2_gji5p")

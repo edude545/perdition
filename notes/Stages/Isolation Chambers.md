@@ -1,2 +1,2 @@
 ### TERRACE OF VAV, PURGATORY
-This region of Purgatory resembles a residential city street similar to what may be found seen on Earth. The buildings are in a Mediterranean style with terracotta rooves. The entire terrace is built on the gentle slopes of Mount Purgatory. The predominant color in this area is brown.
+This region of Purgatory resembles a residential city street, similar to something that might be seen on Earth. The buildings are in a Mediterranean style with terracotta rooves. The entire terrace is built on the gentle slopes of Mount Purgatory. The predominant color in this area is brown.

@@ -1,0 +1,40 @@
+[gd_scene load_steps=4 format=3 uid="uid://cw6jekvf6g2co"]
+
+[ext_resource type="PackedScene" uid="uid://douf1ta6n6q7s" path="res://Scenes/angel.tscn" id="1_ko231"]
+[ext_resource type="PackedScene" uid="uid://mdw7df3qes2m" path="res://Scenes/angel_dialog.tscn" id="2_nu1et"]
+
+[sub_resource type="Environment" id="Environment_ddnyx"]
+ambient_light_source = 2
+ambient_light_color = Color(0.392157, 0.345098, 0.184314, 1)
+ambient_light_energy = 4.07
+
+[node name="judgement" type="Node3D"]
+
+[node name="angel" parent="." instance=ExtResource("1_ko231")]
+book_ring_speed = 0.2
+shell_speed = -0.7
+cage_speed = 0.2
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(-4.15045e-08, 0.313727, 0.949513, 1.37135e-08, 0.949513, -0.313727, -1, -3.55271e-15, -4.37114e-08, 9.77547, -3.48672, -2.38419e-07)
+current = true
+fov = 30.0
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_ddnyx")
+
+[node name="SpotLight3D" type="SpotLight3D" parent="."]
+transform = Transform3D(-3.54697e-08, -0.58442, 0.811452, -2.55458e-08, 0.811452, 0.58442, -1, -1.77636e-15, -4.37114e-08, 5.14733, 3.81541, 0)
+light_color = Color(1, 0.776471, 0.0313726, 1)
+light_energy = 16.0
+spot_range = 17.02
+spot_angle = 15.42
+
+[node name="AngelDialog" parent="." instance=ExtResource("2_nu1et")]
+write_speed = 30.0
+long_pause = 8.0
+short_pause = 4.0
+
+[node name="OmniLight3D" type="OmniLight3D" parent="."]
+light_color = Color(1, 0.623529, 0.219608, 1)
+omni_attenuation = 4.14107

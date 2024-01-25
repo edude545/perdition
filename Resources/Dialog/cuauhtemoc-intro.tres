@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="DialogBlock" load_steps=2 format=3 uid="uid://bty7pty3po0pg"]
+
+[ext_resource type="Script" path="res://Scripts/dialog_block.gd" id="1_l8lqu"]
+
+[resource]
+script = ExtResource("1_l8lqu")
+messages = Array[String](["CUAUHTEMOC WILL NOW BE JUDGED
+ACCORDING TO THE WILL OF GOD"])
+choices = Array[String]([])
+linked_blocks = Array[ExtResource("1_l8lqu")]([])

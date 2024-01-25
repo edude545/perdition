@@ -1,0 +1,55 @@
+[gd_scene load_steps=4 format=3 uid="uid://mdw7df3qes2m"]
+
+[ext_resource type="Script" path="res://Scripts/angel_dialog.gd" id="1_wvtfi"]
+[ext_resource type="FontFile" uid="uid://pj3m3udo3lh0" path="res://Resources/Fonts/Constantia Font.ttf" id="2_aqst0"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_vl1gy"]
+font = ExtResource("2_aqst0")
+font_size = 20
+
+[node name="AngelDialog" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_wvtfi")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 64.0
+offset_top = 431.0
+offset_right = -64.0
+offset_bottom = 0.000366211
+grow_horizontal = 2
+grow_vertical = 2
+text = "ROMANS 1:18-20
+		\"The wrath of God is being revealed from heaven against all the godlessness and wickedness of people, who suppress the truth by their wickedness, since what may be known about God is plain to them, because God has made it plain to them. For since the creation of the world God’s invisible qualities—his eternal power and divine nature—have been clearly seen, being understood from what has been made, so that people are without excuse.\""
+label_settings = SubResource("LabelSettings_vl1gy")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+visible_characters_behavior = 1
+
+[node name="TextureRect" type="TextureRect" parent="Label"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ButtonContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+alignment = 1
+
+[connection signal="gui_input" from="Label/TextureRect" to="." method="_on_gui_input"]

@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://csgo8t7wqm0em"]
 
-[ext_resource type="PackedScene" uid="uid://dnybohr6vtb32" path="res://solar-dungeon.blend" id="1_2m2dk"]
+[ext_resource type="PackedScene" uid="uid://dnybohr6vtb32" path="res://Resources/3D/solar-dungeon.blend" id="1_2m2dk"]
 
 [node name="solar-dungeon" instance=ExtResource("1_2m2dk")]
 

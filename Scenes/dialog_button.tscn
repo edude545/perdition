@@ -1,0 +1,39 @@
+[gd_scene load_steps=3 format=3 uid="uid://btty40yr4ug7"]
+
+[ext_resource type="FontFile" uid="uid://pj3m3udo3lh0" path="res://Resources/Fonts/Constantia Font.ttf" id="1_v6vvt"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_oda3m"]
+font = ExtResource("1_v6vvt")
+font_size = 20
+
+[node name="DialogButton" type="Control"]
+custom_minimum_size = Vector2(800, 30)
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = -1152.0
+offset_bottom = -648.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Button Label"
+label_settings = SubResource("LabelSettings_oda3m")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
