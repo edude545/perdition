@@ -7,8 +7,6 @@ The game is intended to cover several topics, including:
 - Christian beliefs about evangelism and conversion, and their logical conclusion.
 - The concept of Hell.
 
-The judgement each soul has received is intended to be seen as unjust. If the player objects, the angel justifies each judgement with Bible passages, theological arguments, and quotes from modern-day Christians.
-
 ### Characters
 
 Two characters were written for the prototype.
@@ -20,6 +18,12 @@ The second soul, who reached Heaven, is Dominic Lindsay Ellis, Jr.. In-game, he 
 
 Some characters were not added:
 Luca Nicola Scipione, a devout man with a generally easy life, who had debilitating medical problems in his old age and chose euthanasia. Sent to Hell for suicide. Intended to mirror the story of Job.
+
+### Player experience
+
+The judgement each soul has received is intended to be seen as unjust. If the player objects, the angel justifies each judgement with Bible passages, theological arguments, and quotes from modern-day Christians.
+The intended experience for the player is a detached fascination at the "blue-and-orange morality" of this world and the exotic punishments of the people in the afterlife, later followed by surprise or shock that this interpretation of the afterlife appears to be supported by the Bible. The game draws attention to the uncomfortable morality of the Bible and forces the player to consider that even today, this is how many people see the world.
+
 ### Iteration & design
 
 The character concepts were finished before the rest of the game was designed or made.
