@@ -400,9 +400,8 @@ _subresources={
 }
 },
 "nodes": {
-"PATH:Object_3": {
-"generate/physics": true,
-"physics/shape_type": 2
+"PATH:Grid_001": {
+"import/skip_import": true
 }
 }
 }

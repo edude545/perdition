@@ -27,3 +27,6 @@ func _process(delta):
 	velocity = inp
 	#velocity.y = vy
 	move_and_slide()
+	if Input.is_key_pressed(KEY_F12):
+		var image = get_viewport().get_texture().get_image()
+		image.save_png("Resources/Image/Tour/title.png")

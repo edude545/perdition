@@ -1,0 +1,5 @@
+[gd_scene load_steps=2 format=3 uid="uid://c3jhapcy8gq2h"]
+
+[ext_resource type="PackedScene" uid="uid://biuwx0lio0grp" path="res://Resources/3D/mcmansion.blend" id="1_8xr14"]
+
+[node name="mcmansion" instance=ExtResource("1_8xr14")]

@@ -1,0 +1,40 @@
+[gd_scene load_steps=10 format=3 uid="uid://cx3smffylbvsx"]
+
+[ext_resource type="PackedScene" uid="uid://biuwx0lio0grp" path="res://Resources/3D/mcmansion.blend" id="1_umeww"]
+[ext_resource type="Texture2D" uid="uid://dsdtcuhjgig2g" path="res://Resources/Image/space.png" id="2_jydnv"]
+[ext_resource type="PackedScene" uid="uid://dqoycath88f7w" path="res://Scenes/player.tscn" id="3_0ci2w"]
+[ext_resource type="Texture2D" uid="uid://h78asd4ru47a" path="res://Resources/3D/textures/mat2515_9_baseColor.jpeg" id="4_hh76e"]
+
+[sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_1okeg"]
+panorama = ExtResource("2_jydnv")
+
+[sub_resource type="Sky" id="Sky_7e45m"]
+sky_material = SubResource("PanoramaSkyMaterial_1okeg")
+
+[sub_resource type="Environment" id="Environment_23v3t"]
+background_mode = 2
+sky = SubResource("Sky_7e45m")
+ambient_light_source = 2
+ambient_light_color = Color(0.529412, 0.321569, 0.188235, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_7fmts"]
+albedo_texture = ExtResource("4_hh76e")
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_qvr08"]
+material = SubResource("StandardMaterial3D_7fmts")
+
+[node name="Mars" type="Node3D"]
+
+[node name="mcmansion" parent="." instance=ExtResource("1_umeww")]
+transform = Transform3D(0.264, 0, 0, 0, 0.264, 0, 0, 0, 0.264, 0, 0, 0)
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_23v3t")
+
+[node name="Player" parent="." instance=ExtResource("3_0ci2w")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 65.6502, 3.42566, -49.1534)
+gravity = 0.0
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1000, 0, 0, 0, 1000, 0, 0, 0, 1000, 54.183, -0.358573, -63.0567)
+mesh = SubResource("PlaneMesh_qvr08")

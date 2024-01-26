@@ -7,6 +7,6 @@
 script = ExtResource("1_eqluk")
 messages = Array[String](["WHAT
 IS YOUR OBJECTION"])
-choices = Array[String](["\"He could not possibly have heard the word of God, so he cannot be expected to live morally.\""])
+choices = Array[String](["\"He could not possibly have heard the word of God, so he cannot be expected to live according to His law.\"", "\"He only worshipped a foreign god. Is that the worst of his sins?\""])
 linked_blocks = Array[ExtResource("1_eqluk")]([ExtResource("1_tqbtu")])
 write_speed_mult = 1.0

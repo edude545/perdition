@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="DialogBlock" load_steps=5 format=3 uid="uid://boe0ewdfioemy"]
+[gd_resource type="Resource" script_class="DialogBlock" load_steps=5 format=3 uid="uid://c3m1sv15ij3a0"]
 
 [ext_resource type="Script" path="res://Scripts/dialog_block.gd" id="1_iypeb"]
 [ext_resource type="Resource" uid="uid://bty7pty3po0pg" path="res://Resources/Dialog/cuauhtemoc-intro.tres" id="1_mip3q"]
